@@ -1,7 +1,7 @@
 import React from "react";
 import ListItem from "./ListItem";
 const List = ({ todoData, setTodoData }) => {
-  console.log("Form 랜더링");
+  console.log("List 랜더링");
 
   return (
     <div>
@@ -18,4 +18,5 @@ const List = ({ todoData, setTodoData }) => {
   );
 };
 
+// 리랜더링 최적화를 위한 코드
 export default React.memo(List);
